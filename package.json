@@ -1,6 +1,6 @@
 {
-  "name": "simple-app-without-react-router",
-  "homepage": "https://hfpp2012.github.com/simple-app-without-react-router",
+  "name": "simple-app-with-react-router",
+  "homepage": "https://hfpp2012.github.com/simple-app-with-react-router",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

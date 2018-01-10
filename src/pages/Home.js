@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-import Jumbotron from '../components/Jumbotron';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <Navbar />
-        <Jumbotron title="Welcome" subtitle="Put something witty here!" />
         <div className="container">
           <h2>Welcome</h2>
           <p>
@@ -18,7 +13,6 @@ class Home extends Component {
             Maecenas dapibus, est posuere eleifend rutrum, lectus ligula gravida urna, at pretium dui turpis non lorem. Donec pretium lorem ipsum, at fermentum nibh consequat facilisis. Sed maximus massa est, vel porta diam placerat id. Vivamus imperdiet lorem eget dolor bibendum, eget gravida tellus interdum. Sed lectus odio, condimentum eu porttitor vel, euismod sit amet urna. Nam quis dui a nibh rhoncus aliquam vitae in metus. Nam sit amet semper turpis. Suspendisse eu malesuada tortor, vel lacinia nisl. Phasellus ultrices vehicula magna, sed tempor neque dapibus quis. Phasellus urna justo, sollicitudin ac odio eget, convallis varius nulla. Vivamus in lacinia lorem, at eleifend nulla. Nulla nec luctus purus. Integer id purus mauris. Phasellus finibus ultricies erat a tempus. Nulla luctus sem nec justo venenatis, eu faucibus purus congue.
           </p>
         </div>
-        <Footer />
       </div>
     );
   }
